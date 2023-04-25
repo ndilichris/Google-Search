@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+#search {
+  width: 600px;
+  padding: 20px;
+  margin: 30px;
+  border-radius: 50px;
+  border-style: solid;
+}
+#button {
+  width: 200px;
+  margin-left: 230px;
+  padding: 20px;
+  background-color: whitesmoke;
+  border-radius: 10px;
+  border-color: #ec4067;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+#button:hover {
+  background-color: antiquewhite;
+  color: #ec4067;
+}
+
